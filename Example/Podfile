@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'PGSCommonSDk_Example' do
+  pod 'PGSCommonSDk', :path => '../'
+
+  target 'PGSCommonSDk_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

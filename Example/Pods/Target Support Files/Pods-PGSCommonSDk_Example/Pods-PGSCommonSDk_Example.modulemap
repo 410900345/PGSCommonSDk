@@ -1,0 +1,6 @@
+framework module Pods_PGSCommonSDk_Example {
+  umbrella header "Pods-PGSCommonSDk_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
