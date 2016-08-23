@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'E5821979E90D745424C8427706CF4D5F'
-               BlueprintName = 'PGSCommonSDk'
+               BlueprintIdentifier = '993DDD194824382FFF8DA1E0285D142A'
+               BlueprintName = 'PGSCommonSDK'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'PGSCommonSDk.framework'>
+               BuildableName = 'libPGSCommonSDK.a'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

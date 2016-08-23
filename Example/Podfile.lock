@@ -1,16 +1,22 @@
 PODS:
-  - PGSCommonSDk (0.1.0)
+  - PGSCommonSDK (0.0.1):
+    - PGSCommonSDK/PGBaseCategory (= 0.0.1)
+    - PGSCommonSDK/PGBaseTools (= 0.0.1)
+    - PGSCommonSDK/SSFoundation (= 0.0.1)
+  - PGSCommonSDK/PGBaseCategory (0.0.1)
+  - PGSCommonSDK/PGBaseTools (0.0.1)
+  - PGSCommonSDK/SSFoundation (0.0.1)
 
 DEPENDENCIES:
-  - PGSCommonSDk (from `../`)
+  - PGSCommonSDK (from `../`)
 
 EXTERNAL SOURCES:
-  PGSCommonSDk:
+  PGSCommonSDK:
     :path: ../
 
 SPEC CHECKSUMS:
-  PGSCommonSDk: a688acdeabcdbbc4c56d11e812ff8939ca03c4ff
+  PGSCommonSDK: 21192505ccd9dcc54039b3da8e615b9e6abf7a0c
 
-PODFILE CHECKSUM: fe1f8c5df7809c29363a70037ee6ee20b6f62748
+PODFILE CHECKSUM: a470425e933c29d720ddbbd7fec68ff8a2552361
 
 COCOAPODS: 1.0.1

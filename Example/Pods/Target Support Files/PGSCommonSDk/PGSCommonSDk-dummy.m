@@ -1,5 +1,5 @@
 #import <Foundation/Foundation.h>
-@interface PodsDummy_PGSCommonSDk : NSObject
+@interface PodsDummy_PGSCommonSDK : NSObject
 @end
-@implementation PodsDummy_PGSCommonSDk
+@implementation PodsDummy_PGSCommonSDK
 @end

@@ -1,6 +1,0 @@
-framework module PGSCommonSDk {
-  umbrella header "PGSCommonSDk-umbrella.h"
-
-  export *
-  module * { export * }
-}

@@ -1,11 +1,12 @@
-use_frameworks!
+#use_frameworks!
+platform :ios, "7.0"
 
 target 'PGSCommonSDk_Example' do
-  pod 'PGSCommonSDk', :path => '../'
+  pod 'PGSCommonSDK', :path => '../'
 
-  target 'PGSCommonSDk_Tests' do
-    inherit! :search_paths
+#  target 'PGSCommonSDk_Tests' do
+#    inherit! :search_paths
 
     
-  end
+#  end
 end
