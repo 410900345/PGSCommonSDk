@@ -22,7 +22,6 @@
 #include <net/if.h>
 #include <errno.h>
 #include <net/if_dl.h>
-#import "IPAddress.h"
 
 @implementation SystemInfo
 
@@ -152,17 +151,6 @@ static const char * __jb_app = NULL;
 	{
 		return @"";
 	}
-}
-
-+ (NSString *)localIPAddress
-{
-    InitAddresses();
-    
-    GetIPAddresses();
-    
-    GetHWAddresses();
-    
-    return [NSString stringWithFormat:@"%s", ip_names[1]];
 }
 
 @end

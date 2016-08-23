@@ -45,7 +45,5 @@
 /*越狱版本*/
 + (NSString *)jailBreaker;
 
-/*本地ip*/
-+ (NSString *)localIPAddress;
 
 @end
